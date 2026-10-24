@@ -1,0 +1,4 @@
+# Preserve the exported CSV bytes, including their BOM and CRLF endings.
+*.csv -text whitespace=cr-at-eol
+*.sqlite binary
+*.xlsx binary

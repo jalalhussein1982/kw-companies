@@ -1,0 +1,17 @@
+# Publish only the standalone navigator and the files linked from its Files menu.
+/*
+!/.gitignore
+!/.gitattributes
+!/.nojekyll
+!/README.md
+!/index.html
+!/data/
+/data/*
+!/data/companies.csv
+!/data/contacts.csv
+!/outputs/
+/outputs/*
+!/outputs/kuwait-directory-2026-10-24/
+/outputs/kuwait-directory-2026-10-24/*
+!/outputs/kuwait-directory-2026-10-24/kuwait-company-directory.xlsx
+!/outputs/kuwait-directory-2026-10-24/kuwait-companies.sqlite
